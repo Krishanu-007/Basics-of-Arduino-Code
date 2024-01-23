@@ -83,3 +83,29 @@ This project utilizes the in-built Servo library to control the servo motor. The
 2. Make the necessary hardware connections as specified in the [Setup](#setup) section.
 3. Power up the Arduino board.
 4. Observe the servo motor gradually moving from 0 to 180 degrees and then back.
+
+## servo_control_by_ur
+### Servo Motor Control Based on Ultrasonic Sensor
+
+This Arduino program controls the motion of a servo motor based on the direction detected by an ultrasonic sensor within a specified range. The servo motor moves towards the maximum right or left based on the ultrasonic sensor reading and returns to the idle position.
+
+### Ultrasonic Sensor Directivity
+
+The program utilizes an ultrasonic sensor to detect distances. The servo motor's direction is controlled based on the detected distance within predefined ranges.
+
+- `Mid`: Middle distance range.
+- `Max`: Maximum distance range (right movement).
+- `Min`: Minimum distance range (left movement).
+
+### Setup
+
+1. Connect the ultrasonic sensor to the trigger (`trig`) and echo (`echo`) pins.
+2. Connect the servo motor to the signal pin (`motor.attach(9)`).
+3. Ensure the Arduino board is properly powered.
+
+### Usage
+
+1. Upload the code to your Arduino board using the Arduino IDE.
+2. Make the necessary hardware connections as specified in the [Setup](#setup) section.
+3. Power up the Arduino board.
+4. Observe the servo motor's motion based on the direction detected by the ultrasonic sensor.

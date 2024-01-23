@@ -34,3 +34,30 @@ This Arduino program controls the rotation of a DC motor based on readings from 
 1. Upload the code to your Arduino board using the Arduino IDE.
 2. Power up the Arduino board.
 3. Open the Arduino IDE Serial Monitor to observe the motor's behavior based on the ultrasonic sensor readings.
+
+## dc_motor_setup_logic
+### DC Motor Control with Two Control Pins
+
+This Arduino program governs the motion of a DC motor using two control pins for each motor. The motor control is based on a specified pattern for control pins A and B, where different combinations result in various motions such as forward, backward, left-turn, and right-turn.
+
+### Control Logic
+
+The control logic for the DC motor is as follows:
+
+| i1 | i2 | i3 | i4 | Motion          |
+|----|----|----|----|-----------------|
+| LOW| HIGH| LOW| HIGH| Forward         |
+| HIGH| LOW| HIGH| LOW| Backward        |
+| LOW| LOW| LOW| HIGH| Left-turn       |
+| LOW| HIGH| LOW| LOW| Right-turn      |
+
+### Control Pins
+
+- `i1` and `i2`: Control pins for one motor.
+- `i3` and `i4`: Control pins for another motor.
+
+### Usage
+
+1. Upload the code to your Arduino board using the Arduino IDE.
+2. Power up the Arduino board.
+3. Observe the DC motor's behavior as it goes through forward, backward, left-turn, and right-turn motions.

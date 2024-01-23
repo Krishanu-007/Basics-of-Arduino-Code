@@ -128,3 +128,23 @@ This Arduino program measures the distance using an ultrasonic sensor and prints
 1. Upload the code to your Arduino board using the Arduino IDE.
 2. Power up the Arduino board.
 3. Open the Arduino IDE Serial Monitor to observe the distance measurements.
+
+## ur_optimised
+### Ultrasonic Sensor Distance Measurement with NewPing Library
+
+This Arduino program uses the `NewPing` library to measure distance using an ultrasonic sensor and prints the results to the Serial Monitor. The `NewPing` library simplifies distance measurements by providing convenient functions.
+
+### Library Usage
+
+This project utilizes the `NewPing` library, which offers functions such as `ping_cm()`, `ping_in()`, and `ping_median(i)` to simplify distance measurements with an ultrasonic sensor.
+
+### Setup
+
+1. Connect the ultrasonic sensor to the trigger (`trig`) and echo (`echo`) pins.
+2. Ensure the Arduino board is properly powered.
+
+### Usage
+
+1. Upload the code to your Arduino board using the Arduino IDE.
+2. Power up the Arduino board.
+3. Open the Arduino IDE Serial Monitor to observe the distance measurements and the time taken for each ping.

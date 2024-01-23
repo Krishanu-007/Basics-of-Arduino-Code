@@ -148,3 +148,14 @@ This project utilizes the `NewPing` library, which offers functions such as `pin
 1. Upload the code to your Arduino board using the Arduino IDE.
 2. Power up the Arduino board.
 3. Open the Arduino IDE Serial Monitor to observe the distance measurements and the time taken for each ping.
+
+# Schematics
+This part contains the schematic representations of the connections that are being implemented on the basis of the codes in the coding sections.
+
+## Table of Contents
+- DC motor connections
+- dc_motor_by_ur
+- servo_control_by_ur
+
+# License
+This project is licensed under the [MIT License](LICENSE).

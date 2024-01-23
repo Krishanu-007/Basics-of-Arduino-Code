@@ -61,3 +61,25 @@ The control logic for the DC motor is as follows:
 1. Upload the code to your Arduino board using the Arduino IDE.
 2. Power up the Arduino board.
 3. Observe the DC motor's behavior as it goes through forward, backward, left-turn, and right-turn motions.
+
+## servo
+### Servo Motor Control with Arduino
+
+This Arduino program uses the Servo library to control a servo motor. The code gradually moves the servo from 0 to 180 degrees and then back from 180 to 0 degrees. The servo position is printed to the Serial Monitor for debugging purposes.
+
+### Servo Library
+
+This project utilizes the in-built Servo library to control the servo motor. The Servo library provides easy-to-use functions for controlling servo motors.
+
+### Setup
+
+1. Connect the servo motor to the Arduino board.
+2. Define the pin to which the servo is attached using `servo.attach(pin)`.
+3. Ensure the Arduino board is properly powered.
+
+### Usage
+
+1. Upload the code to your Arduino board using the Arduino IDE.
+2. Make the necessary hardware connections as specified in the [Setup](#setup) section.
+3. Power up the Arduino board.
+4. Observe the servo motor gradually moving from 0 to 180 degrees and then back.

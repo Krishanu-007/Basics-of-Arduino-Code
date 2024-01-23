@@ -107,3 +107,24 @@ The program utilizes an ultrasonic sensor to detect distances. The servo motor's
 1. Upload the code to your Arduino board using the Arduino IDE.
 2. Power up the Arduino board.
 3. Observe the servo motor's motion based on the direction detected by the ultrasonic sensor.
+
+## ur_brute_force
+### Ultrasonic Sensor Distance Measurement
+
+This Arduino program measures the distance using an ultrasonic sensor and prints the result to the Serial Monitor. It includes the ability to set maximum (`Max`) and minimum (`Min`) detection ranges to limit the reported distance.
+
+### Sensor Ranges
+
+- `Max`: Maximum distance range for the sensor to detect.
+- `Min`: Minimum distance range for the sensor to detect.
+
+### Setup
+
+1. Connect the ultrasonic sensor to the trigger (`trig`) and echo (`echo`) pins.
+2. Ensure the Arduino board is properly powered.
+
+### Usage
+
+1. Upload the code to your Arduino board using the Arduino IDE.
+2. Power up the Arduino board.
+3. Open the Arduino IDE Serial Monitor to observe the distance measurements.
